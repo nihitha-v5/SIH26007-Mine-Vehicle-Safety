@@ -200,8 +200,47 @@ The hardware part of the project consists of the sensing, processing, communicat
 
 The complete component list and connections are available here:
 
-* [Hardware Components](hardware/components.md)
-* [Hardware Connections](hardware/connections.md)
+* Hardware Components
+# Hardware Components
+
+The FOG-RISE prototype integrates sensing, positioning, communication, processing and driver-warning components to support safe HEMM operation during fog and low-visibility conditions.
+
+| Component | Purpose |
+|---|---|
+| **77 GHz mmWave Radar** | Detects nearby objects, distance and relative motion, including in low-visibility conditions. |
+| **IR/NIR Camera** | Helps detect vehicles, people and obstacles in fog and darkness. |
+| **LWIR Thermal Camera (Optional)** | Provides thermal information for improved detection in poor visibility and low-light conditions. |
+| **GNSS Module** | Provides vehicle position and supports location-based risk identification. |
+| **IMU** | Measures vehicle motion, acceleration and heading changes. |
+| **Wheel Odometry** | Provides vehicle speed and distance travelled. |
+| **V2V Communication Module** | Exchanges vehicle position, speed and heading information with nearby vehicles. |
+| **Processing Unit** | Receives and processes sensor and communication data for sensor fusion, trajectory prediction and risk assessment. |
+| **Driver Display / HUD** | Displays risk information, warnings and recommended speed to the driver. |
+| **Audio Warning Unit** | Provides immediate audible alerts when a high-risk situation is detected. |
+| **Power Supply Unit** | Provides regulated power to the prototype's electronic components. |
+
+* Hardware Connections
+# Hardware Connections
+
+## Sensor Connections
+
+- Radar → Processing Unit
+- IR/NIR Camera → Processing Unit
+- GNSS → Processing Unit
+- IMU → Processing Unit
+- Wheel Odometry → Processing Unit
+- V2V Module → Processing Unit
+
+## Warning System
+
+- Processing Unit → Display
+- Processing Unit → Buzzer/Audio Alert
+
+## Power
+
+- Power Supply → Processing Unit
+- Power Supply → Sensors
+- Power Supply → Communication and Warning Modules
 
 Prototype photographs and the circuit diagram are also included in the Hardware folder.
 
@@ -280,7 +319,12 @@ This project is developed by our SIH team for:
 
 Team member details are available here:
 
-[Team Members](team/team-members.md)
+Team Members : 
+- V NIHITHA
+- CH. VIJAYA SPOORTHI
+- GNANA PRASOONA .G
+- AMULYA .A
+- AKSHITHA .D
 
 ---
 
