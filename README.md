@@ -200,7 +200,6 @@ The hardware part of the project consists of the sensing, processing, communicat
 
 The complete component list and connections are available here:
 
-* Hardware Components
 # Hardware Components
 
 The FOG-RISE prototype integrates sensing, positioning, communication, processing and driver-warning components to support safe HEMM operation during fog and low-visibility conditions.
@@ -219,7 +218,6 @@ The FOG-RISE prototype integrates sensing, positioning, communication, processin
 | **Audio Warning Unit** | Provides immediate audible alerts when a high-risk situation is detected. |
 | **Power Supply Unit** | Provides regulated power to the prototype's electronic components. |
 
-* Hardware Connections
 # Hardware Connections
 
 ## Sensor Connections
@@ -323,6 +321,7 @@ Team Members :
 - V NIHITHA
 - CH. VIJAYA SPOORTHI
 - GNANA PRASOONA .G
+- DARSHINI DATLA
 - AMULYA .A
 - AKSHITHA .D
 
