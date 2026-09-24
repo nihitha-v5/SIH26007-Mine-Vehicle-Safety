@@ -6,12 +6,12 @@ This project is being developed as part of Smart India Hackathon for problem sta
 
 | Name   | Role          |
 | ------ | ------------- |
-| [Name] | Team Leader   |
-| [Name] | Hardware      |
-| [Name] | Software      |
-| [Name] | AI / Data     |
-| [Name] | Testing       |
-| [Name] | Documentation |
+| [V NIHITHA] | Team Leader   |
+| [AMULYA .A] | Hardware      |
+| [GNANA PRASOONA .G] | Software      |
+| [DARSHINI DATLA] | AI / Data     |
+| [CH. VIJAYA SPOORTHI] | Testing       |
+| [AKSHITHA .D] | Documentation |
 
 ## Team Contribution
 
